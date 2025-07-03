@@ -24,5 +24,38 @@ let booleanIsLoggedIn = Boolean(isloggedIn)
 let sumNumber = 33
 let stringNumber = String(sumNumber)
 
-console.log(stringNumber)
-console.log(typeof stringNumber)
+// console.log(stringNumber)
+// console.log(typeof stringNumber)
+
+// -------------------------- OPERATIONS -------------------------------
+
+let value = 3
+let negvalue =-value
+
+// console.log(negvalue)
+
+// console.log(2*3)
+// console.log(2**3)
+// console.log(2/2)
+// console.log(22%10)
+
+let str ="vaibhav"
+let st = "khot"
+
+let str1 = str+st;
+
+// console.log(str1)
+
+// console.log("1" + 9 +1)
+// console.log(9+1+"2")
+// console.log(+true)
+// console.log(2+"1")
+
+let no1 , no2, no3
+no1 = no2 = no3 = 2+2
+
+let gameCounter = 100
+++gameCounter
+console.log(gameCounter)
+gameCounter++
+console.log(gameCounter)
