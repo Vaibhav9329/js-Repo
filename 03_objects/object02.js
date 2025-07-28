@@ -1,10 +1,6 @@
-// this is non-singleton object 
-        
-// const tinderUser1 ={}
-// console.log(tinderUser1)
+const tinderUser1 ={}  // --> this is non-singleton object 
 
-//  this is singleton object
-const tinderUser = new Object()  
+const tinderUser = new Object()  // -->  this is singleton object
 
 tinderUser.id = "1234"
 tinderUser.name = "ommy"
@@ -37,6 +33,34 @@ const regularUser = {
 
 const obj1 = {1:"a",2:"b"}
 const obj2 = {3:"c",4:"d"}
+const obj4 = {5:"e", 6:"f"}
 
-const obj3 = (obj1, obj2)
-console.log(obj3)
+// const obj3 = {obj1, obj2}
+// const obj3 = Object.assign({},obj1, obj2,obj4)
+
+
+// const obj3 = {...obj1, ...obj2}
+
+const users = [
+    {
+        id:1,
+        email:"va@gmai.com"
+    },
+     {
+        id:1,
+        email:"va@gmai.com"
+    },
+     {
+        id:1,
+        email:"va@gmai.com"
+    }
+]
+
+users[1].email
+console.log(tinderUser)
+
+ console.log(Object.keys(tinderUser))
+ console.log(Object.values(tinderUser))
+ console.log(Object.entries(tinderUser))
+
+ console.log(tinderUser.hasOwnProperty('isLoggedin'))
