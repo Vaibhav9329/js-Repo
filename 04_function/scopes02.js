@@ -53,10 +53,7 @@ function  addone(num){    // --> it's called function only
 }
 
 
-addTwo(4)
+// addTwo(4)
 const addTwo = function(num){   //--> it's called expression (function)
     return num +2
 }
-
-
-
