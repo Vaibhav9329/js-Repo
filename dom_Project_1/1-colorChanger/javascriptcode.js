@@ -10,15 +10,15 @@ buttons.forEach((button)=>{
             body.style.backgroundColor = e.target.id;
         }
 
-        if(e.target.id === 'rebeccapurple'){
+        else if(e.target.id === 'rebeccapurple'){
             body.style.backgroundColor = e.target.id
         }
 
-        if(e.target.id === 'palevioletred'){
+        else if(e.target.id === 'palevioletred'){
             body.style.backgroundColor = e.target.id
         }
 
-        if(e.target.id === 'yellow'){
+        else(e.target.id === 'yellow'){
             body.style.backgroundColor = e.target.id
         }
     });
